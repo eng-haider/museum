@@ -1,0 +1,123 @@
+body {  
+    direction: ltr !important;
+    text-align: left !important;
+}
+
+.ltr {
+    direction: ltr !important;
+    text-align: left !important;
+}
+
+.f-l{
+    float: left!important;
+}
+
+.main-menu {
+    float: left !important;
+}
+
+.menu-right-content {
+    float: left !important;
+    margin-left: 40px !important;
+}
+
+.outer-search-box-style1 {
+    float: left !important;
+}
+
+.main-menu .navigation>li {
+    float: left !important;
+}
+
+.main-menu .navigation>li>ul {
+    left: 0 !important;
+}
+
+.main-menu .navigation>li>ul>li>a {
+    text-align: left !important;
+}
+
+.main-menu .navigation>li>ul>li>a:before {
+    left: 0 !important;
+    right: auto !important;
+}
+
+.main-menu .navigation>li>ul>li>a:hover {
+    padding-left: 15px !important;
+}
+
+.outer-search-box-style1 .search-box .form-group button, .outer-search-box-style1 .search-box .form-group input[type="submit"] {
+    left: auto !important;
+    right: 0 !important;
+}
+
+.outer-search-box-style1 .search-box .form-group input[type="search"] {
+    padding-left: 8px;
+    text-align: left !important;
+}
+
+.plan-your-visit {
+    left: auto !important;
+    right: 0 !important;
+}
+
+.intro-box {
+    text-align: left !important;
+}
+
+.plan-your-visit h2 a {
+     float: right !important;
+}
+
+.latest-blog-title .text {
+    text-align: left !important;
+}
+
+.blog-carousel.owl-nav-style-one.owl-theme .owl-nav {
+    left: -400px !important;
+    right: auto !important;
+}
+
+.sec-title {
+    text-align: left !important;
+}
+
+.event-carousel.owl-carousel.owl-dot-style1 .owl-dots {
+    right: 5px !important;
+    left: auto !important;
+}
+
+.single-event-box .img-holder .date-box {
+    right: auto !important;
+    left: 0 !important;
+}
+
+.single-event-box .title-holder .inner h3 {
+    text-align: left !important;
+}
+
+.single-event-box .title-holder .inner h3 i {
+    float: right !important;
+}
+
+.fa-angle-double-right:before {
+    content: "\f100" !important;
+}
+
+.single-testimonial-style1 .client-info {
+    direction: ltr !important;
+}
+
+.single-footer-widget-style2 .footer-map-holder .address-box {
+    right: -20px;
+    left: auto;
+}
+.triangle {
+    border-left: 10px solid #FFC107;
+    border-right: none;
+}
+
+.fa-long-arrow-right::before {
+    content: "\f177" !important;
+}
+

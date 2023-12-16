@@ -1,0 +1,27 @@
+
+.pagination > li > a{
+    color: #1C1C1C;
+}
+.pagination > li > span {
+    color: #1C1C1C;
+}
+.pagination > li > a:hover{
+    background-color: #2D353D;
+    color: #f7f7f7;
+}
+.pagination > .active > a:focus{
+    background-color: #2D353D;
+    border-color: #e4b33d;
+}
+[aria-current] .page-link {
+    background-color:  #e4b33d  !important;
+    border-color:  #e4b33d ;
+
+}
+[rel='prev'], [rel='next']  {
+    background-color: #e4b33d !important;
+}
+
+.page-item.active .page-link{
+    border-color: transparent;
+}
