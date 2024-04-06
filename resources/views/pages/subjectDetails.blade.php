@@ -87,7 +87,7 @@
             <div class=" col-sm-12 col-lg-8 mb-3 mt-3 mt-lg-0 ">
                 <div class="">
                     <a data-fancybox="gallery" href="{{asset('upload/large/'.$subjec->photo)}}">
-                    <img class="  " src="{{asset('upload/large/'.$subjec->photo)}}">
+                    <img class="  " src="{{asset('upload/large/720/'.$subjec->photo)}}">
                     </a>
 
                 </div>
@@ -109,7 +109,7 @@
                     <div class="radius-x">
 
                         <a href="{{route('nafessDetails',$subject->id)}}">
-                            <img src="{{asset('upload/large/'.$subject->photo)}}">
+                            <img src="{{asset('upload/large/720/'.$subject->photo)}}">
                         </a>
 
                         <p class="">{{ Str::limit($subject->more,60) }}</p>
@@ -157,7 +157,7 @@
                     <div class="radius-x">
 
                         <a href="{{route('nafessDetails',$subject->id)}}">
-                            <img src="{{asset('upload/large/'.$subject->photo)}}">
+                            <img src="{{asset('upload/large/720/'.$subject->photo)}}">
                         </a>
 
                         <p class="">{{ Str::limit($subject->more,60) }}</p>

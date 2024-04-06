@@ -82,7 +82,7 @@
                             <div class="mx-0  mt-4 col-10 col-sm-6 col-md-5 col-lg-4 col-xl-3">
                                 <div class="radius-x">
                                     <a  href="{{route('nafessDetails',$subjec->id)}}">
-                                        <img src="{{asset('upload/large/'.$subjec->photo)}}">
+                                        <img src="{{asset('upload/large/720/'.$subjec->photo)}}">
 
                                     </a>
                                     <p class="">{{ Str::limit($subjec->more,60) }}</p>
